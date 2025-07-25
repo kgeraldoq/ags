@@ -1,7 +1,8 @@
 backend:
   name: github
-  repo: kgeraldoq/ags
+  repo: kgeraldoq/ags    # Replace with your GitHub username/repo if different
   branch: main
+  base_url: https://auth.decapcms.org
 
 media_folder: "uploads"
 public_folder: "/uploads"
