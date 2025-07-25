@@ -1,6 +1,10 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: kgeraldoq/ags        # Replace with your GitHub username/repo if different
   branch: main
+  auth_type: implicit
+  app_id: YOUR_GITHUB_CLIENT_ID
+  base_url: https://api.netlify.com
 
 media_folder: "uploads"
 public_folder: "/uploads"
