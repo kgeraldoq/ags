@@ -1,10 +1,10 @@
 backend:
   name: github
-  repo: kgeraldoq/ags
+  repo: kgeraldoq/ags     # Replace with your GitHub username/repo
   branch: main
-  base_url: https://auth.decapcms.org
-  auth_endpoint: auth
-  client_id: Ov23liFcGHWEwGrVKNSk
+  auth_type: implicit
+  app_id: Ov23liFcGHWEwGrVKNSk
+  base_url: https://dev-kc4fndov4sxpi5cv.us.auth0.com
   
 media_folder: "uploads"
 public_folder: "/uploads"
