@@ -4,11 +4,15 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Content Manager</title>
-  <script src="https://unpkg.com/decap-cms@2.10.192/dist/decap-cms.js"></script>
 </head>
 <body>
+  <script src="https://unpkg.com/decap-cms@2.10.192/dist/decap-cms.js"></script>
   <script>
-    CMS.init();
+    window.addEventListener('load', function() {
+      if (typeof CMS !== 'undefined') {
+        CMS.init();
+      }
+    });
   </script>
 </body>
 </html>
