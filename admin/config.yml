@@ -1,9 +1,9 @@
 backend:
   name: github
-  repo: kgeraldoq/ags        # Replace with your GitHub username/repo if different
+  repo: kgeraldoq/ags
   branch: main
   auth_type: implicit
-  app_id: YOUR_GITHUB_CLIENT_ID
+  app_id: Ov23liFcGHWEwGrVKNSk
   base_url: https://api.netlify.com
 
 media_folder: "uploads"
