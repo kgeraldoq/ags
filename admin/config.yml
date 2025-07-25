@@ -3,7 +3,7 @@ backend:
   repo: kgeraldoq/ags     # Replace with your GitHub username/repo
   branch: main
   auth_type: implicit
-  app_id: Ov23liFcGHWEwGrVKNSk
+  app_id: bKkQmPY311RdYbi5s8zGfQHINGV4B4zz
   base_url: https://dev-kc4fndov4sxpi5cv.us.auth0.com
   
 media_folder: "uploads"
