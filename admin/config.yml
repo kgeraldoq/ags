@@ -1,10 +1,10 @@
 backend:
   name: github
-  repo: kgeraldoq/ags
+  repo: kgeraldoq/ags       # your GitHub repo
   branch: main
   auth_type: implicit
-  app_id: Ov23liFcGHWEwGrVKNSk
-  base_url: https://api.netlify.com
+  app_id: bKkQmPY311RdYbi5s8zGfQHINGV4B4zz   # your Auth0 Client ID
+  base_url: https://dev-kc4fndov4sxpi5cv.us.auth0.com   # your Auth0 domain
 
 media_folder: "uploads"
 public_folder: "/uploads"
