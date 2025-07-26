@@ -2,7 +2,7 @@ backend:
   name: github
   repo: kgeraldoq/ags
   branch: main
-  base_url: https://ags-contractors.netlify.app/.netlify/functions/auth
+  base_url: https://ags-contractors.netlify.app/.netlify/functions
   auth_endpoint: ""
 
 media_folder: "uploads"
