@@ -6,6 +6,13 @@
   <title>Content Manager</title>
 </head>
 <body>
-  <script src="https://unpkg.com/decap-cms@latest/dist/decap-cms.js"></script>
+  <script src="https://unpkg.com/decap-cms@2.10.192/dist/decap-cms.js"></script>
+  <script>
+    window.addEventListener('load', function() {
+      if (typeof CMS !== 'undefined') {
+        CMS.init();
+      }
+    });
+  </script>
 </body>
 </html>
